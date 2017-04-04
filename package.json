@@ -1,0 +1,22 @@
+{
+  "name": "easy-draw",
+  "version": "0.1.0",
+  "description": "Simple TypeScript/JavaScript library for 2D HTML5 games, designed for functional/data-first programming for kids.",
+  "main": "lib/index.js",
+  "typings": "lib/index",
+  "files": [
+    "lib/"
+  ],
+  "repository": "git@github.com:philiplopez/easy-game.git",
+  "author": "Philip Lopez <philip.lopez@philiplopez.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "trash lib && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "trash-cli": "^1.4.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+  }
+}

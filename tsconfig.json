@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "outDir": "lib/"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
