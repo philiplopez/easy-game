@@ -1,11 +1,11 @@
-interface GameLogic<GameState, GraphicsDescription> {
+export interface GameLogic<GameState, GraphicsDescription> {
     initialState() : GameState
     nextState(deltaTime_s : number, prev : GameState) : GameState
     graphicsForState(state : GameState) : GraphicsDescription
     renderToScreen(graphicDescription : GraphicsDescription) : void
 }
 
-interface GameApp {
+export interface GameApp {
     start() : void;
 }
 

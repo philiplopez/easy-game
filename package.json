@@ -1,5 +1,5 @@
 {
-  "name": "easy-draw",
+  "name": "easy-game",
   "version": "0.1.0",
   "description": "Simple TypeScript/JavaScript library for 2D HTML5 games, designed for functional/data-first programming for kids.",
   "main": "lib/index.js",
